@@ -12,10 +12,10 @@ end
 for _, force in pairs(game.forces) do
 	force.reset_technologies()
 	force.reset_recipes()
-	if deadlock_stacking then
+	if game.active_mods["DeadlockStacking"] then
 	  reapply_research(force, "deadlock-stacking-1")
   end
-  if deadlock_crating then
+  if game.active_mods["DeadlockCrating"] then
 	  reapply_research(force, "deadlock-crating-1")
   end
 end

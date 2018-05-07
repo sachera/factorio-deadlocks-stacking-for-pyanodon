@@ -12,12 +12,12 @@ end
 
 if deadlock_crating then
   if mods["pycoalprocessing"] then
-    deadlock_crating.create("coke", "deadlock-stacking-1")
-    deadlock_crating.create("fawogae", "deadlock-stacking-1")
-    deadlock_crating.create("iron-oxide", "deadlock-stacking-1")
-    deadlock_crating.create("ralesia", nil, "deadlock-stacking-1")
+    deadlock_crating.create("coke", "deadlock-crating-1")
+    deadlock_crating.create("fawogae", "deadlock-crating-1")
+    deadlock_crating.create("iron-oxide", "deadlock-crating-1")
+    deadlock_crating.create("ralesia", "deadlock-crating-1")
   end
   if mods["pyhightech"] then
-    deadlock_crating.create("clay", "deadlock-stacking-1")
+    deadlock_crating.create("clay", "deadlock-crating-1")
   end
 end
