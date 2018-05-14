@@ -1,3 +1,5 @@
+local shared = require("shared")
+
 function reapply_research(force, research) 
 	if force.technologies[research] and force.technologies[research].researched then
 		for _,effect in pairs(force.technologies[research].effects) do
@@ -5,17 +7,33 @@ function reapply_research(force, research)
 				force.recipes[effect.recipe].enabled = true
 			end
 		end
-		force.print({"info-message.dsb-tech-migration", force.technologies[research].localised_name},{r=1,g=0.75,b=0,a=1})
+		force.print({"info-message.dsfp-tech-migration", force.technologies[research].localised_name},{r=1,g=0.75,b=0,a=1})
 	end
 end
 
-for _, force in pairs(game.forces) do
-	force.reset_technologies()
-	force.reset_recipes()
-	if game.active_mods["DeadlockStacking"] then
-	  reapply_research(force, "deadlock-stacking-1")
+local techs = {}
+
+for mod,items in pairs(shared.STACKABLES) do
+  if game.active_mods[mod] then
+    for _,item in pairs(items) do
+      if item.tech then
+        techs[item.tech] = true
+      else
+	      if game.active_mods["DeadlockStacking"] then
+          techs[shared.STACKING_PREFIX..item.stage] = true
+        end
+        if game.active_mods["DeadlockCrating"] then
+          techs[shared.CRATING_PREFIX..item.stage] = true
+        end
+      end
+    end
   end
-  if game.active_mods["DeadlockCrating"] then
-	  reapply_research(force, "deadlock-crating-1")
+end
+
+for _, force in pairs(game.forces) do
+  force.reset_technologies()
+  force.reset_recipes()
+  for tech,_ in pairs(techs) do
+    reapply_research(force, tech)
   end
 end
