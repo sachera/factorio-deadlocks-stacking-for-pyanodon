@@ -14,7 +14,11 @@ shared.STACKABLES = {
     { item = "borax", icon = nil, stage = 1 },
     { item = "treated-wood", icon = nil, stage = 1 },
     { item = "ground-sample01", icon = nil, stage = 1 },
-    { item = "lens", icon = nil, stage = 1 }
+    { item = "lens", icon = nil, stage = 1 },
+    { item = "raw-borax", icon = nil, stage = 1 },
+    { item = "nexelite-ore", icon = nil, stage = 2 },
+    { item = "niobium-ore", icon = nil, stage = 2 },
+    { item = "limestone", icon = nil, stage = 2 }
   },
   pyhightech = {
     { item = "clay", icon = nil, stage = 1 },
