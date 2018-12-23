@@ -36,10 +36,11 @@ shared.STACKABLES = {
     { item = "graphite", icon = nil, stage = 1 },
     { item = "fiberboard", icon = nil, stage = 1 },
     { item = "pcb1", icon = nil, stage = 1 },
-    { item = "capacitor-1", icon = nil, stage = 1 }
+    { item = "capacitor1", icon = nil, stage = 1 }
   },
  pyrawores = {
     { item = "glass", icon = nil, stage = 1 }
+  },  
 }
 shared.STACKING_PREFIX = "deadlock-stacking-"
 shared.CRATING_PREFIX ="deadlock-crating-"
