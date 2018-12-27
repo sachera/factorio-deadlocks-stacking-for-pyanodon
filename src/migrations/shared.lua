@@ -32,8 +32,21 @@ shared.STACKABLES = {
     { item = "processing-unit", icon = nil, stage = 3 },
     { item = "graphite", icon = nil, stage = 1 },
     { item = "fiberboard", icon = nil, stage = 1 },
-    { item = "pcb1", icon = nil, stage = 1 }
-  }
+    { item = "pcb1", icon = nil, stage = 1 },
+    { item = "capacitor1", icon = nil, stage = 1 },
+    { item = "inductor1", icon = nil, stage = 1 },
+    { item = "resistor1", icon = nil, stage = 1 },
+    { item = "optical-fiber", icon = nil, stage = 2 },
+    { item = "resistor2", icon = nil, stage = 2 },
+    { item = "inductor2", icon = nil, stage = 2 },
+    { item = "capacitor2", icon = nil, stage = 2 },
+    { item = "resistor3", icon = nil, stage = 3 },
+    { item = "inductor3", icon = nil, stage = 3 },
+    { item = "capacitor3", icon = nil, stage = 3 }
+  },
+  pyrawores = {
+    { item = "glass", icon = nil, stage = 1 }
+  },
 }
 shared.STACKING_PREFIX = "deadlock-stacking-"
 shared.CRATING_PREFIX ="deadlock-crating-"
