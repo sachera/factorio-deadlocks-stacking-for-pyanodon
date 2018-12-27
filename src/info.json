@@ -5,7 +5,7 @@
   "author": "The_Ghost",
   "contact": "",
   "homepage": "",
-  "dependencies": ["base >= 0.16.49", "?DeadlockStacking", "?DeadlockCrating", "?pycoalprocessing", "?pyindustry", "?pyhightech", "?pyfusionenergy"],
-  "description": "Adds 5x belt compression for intermediate products introduced in Pyanodons Coal Processing, Pyanodons Fusion Energy, Pyanodons HighTech and Pyanodons Industry.",
+  "dependencies": ["base >= 0.16.49", "?DeadlockStacking", "?DeadlockCrating", "?pycoalprocessing", "?pyindustry", "?pyhightech", "?pyfusionenergy", "?pyrawores"],
+  "description": "Adds 5x belt compression for intermediate products introduced in Pyanodons Coal Processing, Pyanodons Fusion Energy, Pyanodons HighTech, Pyanodons Industry Pyanodons Raw Ores.",
   "factorio_version": "0.16"
 }
