@@ -2,6 +2,7 @@ local shared= {}
 
 shared.STACKABLES = {
   pycoalprocessing = {
+    { item = "soil", icon = nil, stage = 1 },
     { item = "coke", icon = nil, stage = 1 },
     { item = "fawogae", icon = nil, stage = 1 },
     { item = "iron-oxide", icon = nil, stage = 1 },
@@ -16,9 +17,10 @@ shared.STACKABLES = {
     { item = "ground-sample01", icon = nil, stage = 1 },
     { item = "lens", icon = nil, stage = 1 },
     { item = "raw-borax", icon = nil, stage = 1 },
-    { item = "nexelite-ore", icon = nil, stage = 2 },
-    { item = "niobium-ore", icon = nil, stage = 2 },
-    { item = "limestone", icon = nil, stage = 2 }
+    { item = "sand", icon = nil, stage = 1 },
+    { item = "pure-sand", icon = nil, stage = 1 },
+    { item = "nexelit-ore", icon = nil, stage = 2 },
+    { item = "niobium-ore", icon = nil, stage = 2 }
   },
   pyhightech = {
     { item = "clay", icon = nil, stage = 1 },
@@ -45,7 +47,8 @@ shared.STACKABLES = {
     { item = "capacitor3", icon = nil, stage = 3 }
   },
   pyrawores = {
-    { item = "glass", icon = nil, stage = 1 }
+    { item = "glass", icon = nil, stage = 1 },
+    { item = "limestone", icon = nil, stage = 1 }
   },
 }
 shared.STACKING_PREFIX = "deadlock-stacking-"
