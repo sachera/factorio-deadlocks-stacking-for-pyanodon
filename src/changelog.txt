@@ -1,0 +1,65 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.10
+Date: 2019-05-13
+  Features:
+    - rebased the mod on Shane Madden's beltboxes mod
+    - add support for Pyanadons Raw Ores
+    - updated the mod for Factorio 0.17.x
+
+  Added Stacking/Crating for:
+    - a lot of things
+    - changed tiers for some items to respect the receipt changes in Pyanadons mods
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+Date: 2018-06-27
+  Bugfixes:
+    - implemented a proper version migration script and added a simple build script
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 2018-06-21
+  Bugfixes:
+    - Fixed a typo in an item name
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 2018-06-21
+  Added Stacking/Crating for:
+    - Raw Nexelit, Raw Borax, Niobium Ore, Limestone
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 2018-05-27
+  Added Stacking/Crating for:
+    - Boron Trioxide, Bone Meal, Lime, Borax, Ralesia Seeds, Treated Wood, Optical Set, Ground Sample 01, Printed Circuit Substrate 1, Fiberboard, Fawogae Substrate, Graphite
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2018-05-14
+  - Added Stacking/Crating for:
+    - Ceramic, Raw Fiber, Urea, Melamine and Melamine Resin
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 2018-05-11
+  Other changes:
+    - Changed the stack icons for electronic circuits, advanced circuits and processing units if pY HighTech is installed
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2018-05-07
+  Bugfixes:
+      - Fix a crash on startup
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2018-05-07
+  Added Stacking/Crating for:
+      - Iron Oxide, Fawogae, Ralesia and Clay
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2018-05-07
+  Added Stacking/Crating for:
+    - Stacking and Crating for Coke

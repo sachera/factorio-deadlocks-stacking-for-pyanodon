@@ -5,9 +5,9 @@ function create_all(stackable_items, stage_prefix, create_function)
     if mods[mod] then
       for _,item in pairs(items) do
         if item.tech then
-          create_function(item.item, item.icon, item.tech)
+          create_function(item.item, item.icon, item.tech, 32)
         else
-          create_function(item.item, item.icon, stage_prefix..item.stage)
+          create_function(item.item, item.icon, stage_prefix..item.stage, 32)
         end
       end
     end
