@@ -1,7 +1,6 @@
 return {
   { item = "ceramic", icon = nil, stage = 1 },
   { item = "clay", icon = nil, stage = 1 },
-
   { item = "raw-fiber", icon = nil, stage = 1 },
   { item = "urea", icon = nil, stage = 1 },
   { item = "melamine", icon = nil, stage = 1 },
@@ -36,7 +35,6 @@ return {
   { item = "ree-concentrate", icon = nil, stage = 2 },
   { item = "phenolic-board", icon = nil, stage = 2 },
   { item = "phenol", icon = nil, stage = 2 },
-  { item = "pcb3-2", icon = nil, stage = 3 },
   { item = "pcb2", icon = nil, stage = 2 },
   { item = "p-dope", icon = nil, stage = 2 },
   { item = "fecr-alloy", icon = nil, stage = 2 },
@@ -99,5 +97,6 @@ return {
   { item = "ndfeb-powder", icon = nil, stage = 3 },
   { item = "nv-center", icon = nil, stage = 3 },
   { item = "nxag-matrix", icon = nil, stage = 3 },
-  { item = "nems", icon = nil, stage = 3 }
+  { item = "nems", icon = nil, stage = 3 },
+  { item = "pcb3-2", icon = nil, stage = 3 }
 }
