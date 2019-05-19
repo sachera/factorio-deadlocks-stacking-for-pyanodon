@@ -3,6 +3,11 @@ Date: 2019-05-27
   Features:
     - made PyCoalProcessing a non optional dependency
 
+  Added Stacking/Crating for:
+    - quantum dots,pyrolyctic carbon,fertilizer,proton reciever,proton donor,nylon,ndfeb alloy
+    - powdered phosphate rock,pi josephson junction,nylon parts,nexelit-silver matrix
+    - nitrogen-vacancy center,nanoelectromechanical systems,ndfeb powder,nanocrystaline core
+    
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.10
 Date: 2019-05-13

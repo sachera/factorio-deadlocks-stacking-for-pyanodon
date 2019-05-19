@@ -3,6 +3,7 @@
   "version": "0.1.11",
   "title": "Deadlock's Stacking for Pyanodon",
   "author": "The_Ghost",
+  "collaborator": "Chrisdec",
   "contact": "",
   "homepage": "",
   "dependencies": ["base >= 0.17.38", "?deadlock-beltboxes-loaders >= 2.1.11", "?DeadlockCrating >= 1.4.9", "pycoalprocessing >= 1.2.0", "?pyindustry >= 1.2.1", "?pyhightech >= 1.1.7", "?pyrawores >= 1.3.3", "?pyfusionenergy >= 1.2.4", "?pypetroleumhandling >= 1.1.1"],
