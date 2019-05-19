@@ -92,7 +92,7 @@ return {
   { item = "quantum-vortex-storage-system", icon = nil, stage = 3 },
   { item = "quantum-dots", icon = nil, stage = 3 },
   { item = "pyrolytic-carbon", icon = nil, stage = 3 },
-  { item = "pi-josephson-junction", icon = nil, stage = 3 }
+  { item = "pi-josephson-junction", icon = nil, stage = 3 },
   { item = "nano-chip", icon = nil, stage = 3 },
   { item = "nanocrystaline-core", icon = nil, stage = 3 },
   { item = "ndfeb-alloy", icon = nil, stage = 3 },
