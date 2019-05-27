@@ -1,3 +1,8 @@
+Version: 0.1.11
+Date: 2019-05-27
+  Features:
+    - made PyCoalProcessing a non optional dependency
+
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.10
 Date: 2019-05-13
