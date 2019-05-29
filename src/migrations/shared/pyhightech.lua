@@ -1,7 +1,6 @@
 return {
   { item = "ceramic", icon = nil, stage = 1 },
   { item = "clay", icon = nil, stage = 1 },
-
   { item = "raw-fiber", icon = nil, stage = 1 },
   { item = "urea", icon = nil, stage = 1 },
   { item = "melamine", icon = nil, stage = 1 },
@@ -36,7 +35,6 @@ return {
   { item = "ree-concentrate", icon = nil, stage = 2 },
   { item = "phenolic-board", icon = nil, stage = 2 },
   { item = "phenol", icon = nil, stage = 2 },
-  { item = "pcb3-2", icon = nil, stage = 3 },
   { item = "pcb2", icon = nil, stage = 2 },
   { item = "p-dope", icon = nil, stage = 2 },
   { item = "fecr-alloy", icon = nil, stage = 2 },
@@ -44,6 +42,12 @@ return {
   { item = "cermet", icon = nil, stage = 2 },
   { item = "skin", icon = nil, stage = 2 },
   { item = "rayon", icon = nil, stage = 2 },
+  { item = "fertilizer", icon = nil, stage = 2 },
+  { item = "proton-receiver", icon = nil, stage = 2 },
+  { item = "proton-donor", icon = nil, stage = 2 },
+  { item = "powdered-phosphate-rock", icon = nil, stage = 2 },
+  { item = "nylon-parts", icon = nil, stage = 2 },
+  { item = "nylon", icon = nil, stage = 2 },
 
   { item = "processing-unit", icon = nil, stage = 3 },
   { item = "resistor3", icon = nil, stage = 3 },
@@ -83,5 +87,16 @@ return {
   { item = "resorcinol", icon = nil, stage = 3 },
   { item = "resilin", icon = nil, stage = 3 },
   { item = "ralesia-powder", icon = nil, stage = 3 },
-  { item = "quantum-vortex-storage-system", icon = nil, stage = 3 }
+  { item = "quantum-vortex-storage-system", icon = nil, stage = 3 },
+  { item = "quantum-dots", icon = nil, stage = 3 },
+  { item = "pyrolytic-carbon", icon = nil, stage = 3 },
+  { item = "pi-josephson-junction", icon = nil, stage = 3 },
+  { item = "nano-chip", icon = nil, stage = 3 },
+  { item = "nanocrystaline-core", icon = nil, stage = 3 },
+  { item = "ndfeb-alloy", icon = nil, stage = 3 },
+  { item = "ndfeb-powder", icon = nil, stage = 3 },
+  { item = "nv-center", icon = nil, stage = 3 },
+  { item = "nxag-matrix", icon = nil, stage = 3 },
+  { item = "nems", icon = nil, stage = 3 },
+  { item = "pcb3-2", icon = nil, stage = 3 }
 }
