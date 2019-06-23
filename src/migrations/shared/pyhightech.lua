@@ -12,8 +12,8 @@ return {
   { item = "inductor1", icon = nil, stage = 1 },
   { item = "resistor1", icon = nil, stage = 1 },
   { item = "valve", icon = nil, stage = 1 },
+  { item = "electronic-circuit", icon = nil, stage = 1 },
 
-  { item = "electronic-circuit", icon = nil, stage = 2 },
   { item = "advanced-circuit", icon = nil, stage = 2 },
   { item = "optical-fiber", icon = nil, stage = 2 },
   { item = "resistor2", icon = nil, stage = 2 },
