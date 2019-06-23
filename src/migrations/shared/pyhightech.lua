@@ -48,6 +48,14 @@ return {
   { item = "powdered-phosphate-rock", icon = nil, stage = 2 },
   { item = "nylon-parts", icon = nil, stage = 2 },
   { item = "nylon", icon = nil, stage = 2 },
+  { item = "diode", icon = nil, stage = 2 },
+  { item = "microchip", icon = nil, stage = 2 },
+  { item = "collagen", icon = nil, stage = 2 },
+  { item = "blood-meal", icon = nil, stage = 2 },
+  { item = "bone", icon = nil, stage = 2 },
+  { item = "transistor", icon = nil, stage = 2 },
+  { item = "stone-wool", icon = nil, stage = 2 },
+  { item = "silicon", icon = nil, stage = 2 },
 
   { item = "processing-unit", icon = nil, stage = 3 },
   { item = "resistor3", icon = nil, stage = 3 },
@@ -98,5 +106,13 @@ return {
   { item = "nv-center", icon = nil, stage = 3 },
   { item = "nxag-matrix", icon = nil, stage = 3 },
   { item = "nems", icon = nil, stage = 3 },
-  { item = "pcb3-2", icon = nil, stage = 3 }
+  { item = "pcb3-2", icon = nil, stage = 3 },
+  { item = "nic-core", icon = nil, stage = 3 },
+  { item = "high-flux-core", icon = nil, stage = 3 },
+  { item = "heavy-p-type", icon = nil, stage = 3 },
+  { item = "graphene-sheet", icon = nil, stage = 3 },
+  { item = "glass-fiber", icon = nil, stage = 3 },
+  { item = "fiberglass", icon = nil, stage = 3 },
+  { item = "epoxy", icon = nil, stage = 3 },
+  { item = "bisphenol-a", icon = nil, stage = 3 }
 }
