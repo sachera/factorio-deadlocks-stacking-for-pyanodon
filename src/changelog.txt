@@ -1,3 +1,13 @@
+Version: 0.1.13
+Date: 2019-06-23
+  Changes:
+    - moved electronic circuits from stage 2 to stage 1
+
+  Added Stacking/Crating for:
+    -nic core,microchip,high flux core,heavy p doped silicon,graphene sheet,glass fibers
+    -fiberglass,epoxy,diode,bisphenol a,collagen,bones,blood meal,transistor,silicon,stone wool
+
+---------------------------------------------------------------------------------------------------
 Version: 0.1.12
 Date: 2019-05-27
   Added Stacking/Crating for:
