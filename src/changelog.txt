@@ -3,10 +3,6 @@ Date: 2019-07-06
   Changes:
     - changed icon size from 32 to 64
 
-  Added Stacking/Crating for:
-    -none
-    -
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.13
 Date: 2019-06-23
