@@ -8,6 +8,5 @@ return {
     pyfusionenergy   = require(shared .. ".pyfusionenergy"),
   },
 
-  STACKING_PREFIX = "deadlock-stacking-",
-  CRATING_PREFIX ="deadlock-crating-"
+  STACKING_PREFIX = "deadlock-stacking-"
 }
