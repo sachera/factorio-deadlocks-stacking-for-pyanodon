@@ -18,6 +18,3 @@ if deadlock_stacking then
   create_all(shared.STACKABLES, shared.STACKING_PREFIX, deadlock_stacking.create)
 end
 
-if deadlock_crating then
-  create_all(shared.STACKABLES, shared.CRATING_PREFIX, function(item, icon, tech) deadlock_crating.create(item, tech) end)
-end

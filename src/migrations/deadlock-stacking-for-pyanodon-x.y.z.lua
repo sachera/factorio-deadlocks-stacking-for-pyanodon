@@ -22,9 +22,6 @@ for mod,items in pairs(shared.STACKABLES) do
 	      if game.active_mods["DeadlockStacking"] then
           techs[shared.STACKING_PREFIX..item.stage] = true
         end
-        if game.active_mods["DeadlockCrating"] then
-          techs[shared.CRATING_PREFIX..item.stage] = true
-        end
       end
     end
   end
