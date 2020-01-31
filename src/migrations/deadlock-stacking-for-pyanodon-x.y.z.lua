@@ -19,7 +19,7 @@ for mod,items in pairs(shared.STACKABLES) do
       if item.tech then
         techs[item.tech] = true
       else
-	      if game.active_mods["deadlock-beltboxes-loaders"] then
+	      if game.active_mods["DeadlockStacking"] then
           techs[shared.STACKING_PREFIX..item.stage] = true
         end
         if game.active_mods["DeadlockCrating"] then
