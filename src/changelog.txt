@@ -1,3 +1,14 @@
+Version: 0.1.17
+Date: 2020-02-15
+  Additions:
+    - added a thumbnail
+  Migrations:
+    - added py petroleum handling
+  Added stacking for:
+    - small parts 1, 2 and 3, belts, bolts
+    - raw coal (by request)
+
+---------------------------------------------------------------------------------------------------
 Version: 0.1.16
 Date: 2020-02-13
   Changes:
@@ -9,9 +20,9 @@ Date: 2020-02-01
   Changes:
     - updated to factorio version 0.18
     - reset icon size to 32
-    - removed deadlock crating mod due to deprecated
+    - removed deadlock crating mod due to deprecation
     - moved coarse fraction up a stage
-  Bugs:
+  Known Bugs:
     - icons for stacked circuits are still the old ones
 
 ---------------------------------------------------------------------------------------------------
@@ -37,13 +48,13 @@ Date: 2019-05-27
     - quantum dots,pyrolyctic carbon,fertilizer,proton reciever,proton donor,nylon,ndfeb alloy
     - powdered phosphate rock,pi josephson junction,nylon parts,nexelit-silver matrix
     - nitrogen-vacancy center,nanoelectromechanical systems,ndfeb powder,nanocrystaline core
-    
+
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.11
 Date: 2019-05-27
   Features:
     - made PyCoalProcessing a non optional dependency
-    
+
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.10
 Date: 2019-05-13

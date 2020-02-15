@@ -44,6 +44,7 @@ return {
   { item = "grade-1-chromite", icon = nil, stage = 1 },
   { item = "ore-chromium", icon = nil, stage = 1 },
   { item = "ore-tin", icon = nil, stage = 1 },
+  { item = "raw-coal", icon = nil, stage = 1 },
 
   { item = "grade-3-lead", icon = nil, stage = 2 },
   { item = "grade-4-lead", icon = nil, stage = 2 },
