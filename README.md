@@ -1,6 +1,6 @@
 # How to build
 
-- Download pyanadons mods to extract and generate the stacked item images. Make sure to download
+- Download Pyanodons mods to extract and generate the stacked item images. Make sure to download
   both, the mod itself as well as the corresponding image pack.
 	Latest known working Versions (mod / imagepack):
   | mod                 | version | imagepack version |
@@ -17,4 +17,4 @@
 
 ## Why aren't the icons included in this repository?
 
-Pyanadons mods are licenced under the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). This means that the stacking icons in this mods my not be distributed as they are derivates of pyanadons work.
+Pyanodons mods are licenced under the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). This means that the stacking icons in this mods my not be distributed as they are derivates of Pyanodons work.
