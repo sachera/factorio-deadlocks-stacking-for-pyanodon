@@ -15,7 +15,6 @@ return {
   { item = "circuit-board-1", icon = nil, stage = 1 },
 
   { item = "circuit-board-2", icon = nil, stage = 2 },
-  { item = "optical-fiber", icon = nil, stage = 2 },
   { item = "resistor2", icon = nil, stage = 2 },
   { item = "inductor2", icon = nil, stage = 2 },
   { item = "capacitor2", icon = nil, stage = 2 },
@@ -30,7 +29,7 @@ return {
   { item = "zipir-carcass", icon = nil, stage = 2 },
   { item = "zinc-acetate", icon = nil, stage = 2 },
   { item = "rare-earth-ore", icon = nil, stage = 2 },
-  { item = "phosphate-rock", icon = nil, stage = 2 },
+  { item = "phosphate-rock", iconName = "ores/phosphate-rock", icon = nil, stage = 2 },
   { item = "reo", icon = nil, stage = 2 },
   { item = "ree-concentrate", icon = nil, stage = 2 },
   { item = "phenolic-board", icon = nil, stage = 2 },

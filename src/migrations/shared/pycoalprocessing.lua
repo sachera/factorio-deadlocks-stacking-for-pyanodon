@@ -5,10 +5,10 @@ return {
   { item = "boron-trioxide", icon = nil, stage = 1 },
   { item = "calcium-carbide", icon = nil, stage = 1 },
   { item = "chromium", icon = nil, stage = 1 },
-  { item = "chromite-sand", icon = nil, stage = 1 },
-  { item = "coal-dust", icon = nil, stage = 1 },
+  { item = "chromite-sand", iconName = "chromite_sand", icon = nil, stage = 1 },
+  { item = "coal-dust", iconName = "coal_dust", icon = nil, stage = 1 },
   { item = "coke", icon = nil, stage = 1 },
-  { item = "fawogae", icon = nil, stage = 1 },
+  { item = "fawogae", iconName = "fawogae-icon", icon = nil, stage = 1 },
   { item = "fawogae-substrate", icon = nil, stage = 1 },
   { item = "gravel", icon = nil, stage = 1 },
   { item = "ground-sample01", icon = nil, stage = 1 },
@@ -36,6 +36,7 @@ return {
   { item = "nichrome", icon = nil, stage = 2 },
   { item = "niobium-ore", icon = nil, stage = 2 },
   { item = "niobium-plate", icon = nil, stage = 2 },
+  { item = "optical-fiber", icon = nil, stage = 2 },
 
   { item = "fuelrod-mk01", icon = nil, stage = 3 }
 }
