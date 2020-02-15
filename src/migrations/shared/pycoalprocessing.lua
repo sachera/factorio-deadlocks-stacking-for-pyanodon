@@ -29,8 +29,8 @@ return {
   { item = "tailings-dust", icon = nil, stage = 1 },
   { item = "treated-wood", icon = nil, stage = 1 },
   { item = "soil", icon = nil, stage = 1 },
+  { item = "coarse", icon = nil, stage = 1 },
 
-  { item = "coarse", icon = nil, stage = 2 },
   { item = "kevlar", icon = nil, stage = 2 },
   { item = "nbfe-alloy", icon = nil, stage = 2 },
   { item = "nichrome", icon = nil, stage = 2 },

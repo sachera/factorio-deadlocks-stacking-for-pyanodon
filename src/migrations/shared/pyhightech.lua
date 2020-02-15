@@ -12,9 +12,9 @@ return {
   { item = "inductor1", icon = nil, stage = 1 },
   { item = "resistor1", icon = nil, stage = 1 },
   { item = "valve", icon = nil, stage = 1 },
-  { item = "electronic-circuit", icon = nil, stage = 1 },
+  { item = "circuit-board-1", icon = nil, stage = 1 },
 
-  { item = "advanced-circuit", icon = nil, stage = 2 },
+  { item = "circuit-board-2", icon = nil, stage = 2 },
   { item = "optical-fiber", icon = nil, stage = 2 },
   { item = "resistor2", icon = nil, stage = 2 },
   { item = "inductor2", icon = nil, stage = 2 },
@@ -57,7 +57,7 @@ return {
   { item = "stone-wool", icon = nil, stage = 2 },
   { item = "silicon", icon = nil, stage = 2 },
 
-  { item = "processing-unit", icon = nil, stage = 3 },
+  { item = "circuit-board-3", icon = nil, stage = 3 },
   { item = "resistor3", icon = nil, stage = 3 },
   { item = "inductor3", icon = nil, stage = 3 },
   { item = "capacitor3", icon = nil, stage = 3 },

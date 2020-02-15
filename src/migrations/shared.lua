@@ -9,5 +9,4 @@ return {
   },
 
   STACKING_PREFIX = "deadlock-stacking-",
-  CRATING_PREFIX ="deadlock-crating-"
 }
