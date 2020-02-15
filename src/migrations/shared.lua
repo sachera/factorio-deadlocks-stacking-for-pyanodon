@@ -1,4 +1,4 @@
-local shared = ...
+local shared = "shared"
 
 return {
   STACKABLES = {
