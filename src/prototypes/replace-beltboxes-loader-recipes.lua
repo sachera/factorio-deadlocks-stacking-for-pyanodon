@@ -1,4 +1,13 @@
 local tiers = {
+  t1 = {
+    loader = {
+		  plates = {"iron-plate", 5},
+    },
+    beltbox = {
+      plates = {"iron-plate", 10},
+      gears = {"iron-gear-wheel", 10},
+    },
+  },
   t2 = {
     loader = {
 		  gears = {"iron-gear-wheel", 20},
@@ -26,13 +35,33 @@ if mods["pyrawores"] then
 end
 
 -- replace iron-gear-wheel with small-parts 1-3 if pyrawores is used
--- ron-gear-wheel are already replaced with small-parts-1 by pypetroleumhandling, no need to do it again
 if mods["pypetroleumhandling"] then
+  tiers["t1"]["beltbox"]["gears"] = {"small-parts-01", 1}
   tiers["t2"]["loader"]["gears"] = {"small-parts-02", 2}
   tiers["t2"]["beltbox"]["gears"] = {"small-parts-02", 2}
   tiers["t3"]["loader"]["gears"] = {"small-parts-03", 4}
   tiers["t3"]["beltbox"]["gears"] = {"small-parts-03", 3}
 end
+
+deadlock.add_tier({
+	transport_belt      = "transport-belt",
+	colour              = {r=210, g=180, b=80},
+	underground_belt    = "underground-belt",
+	splitter            = "splitter",
+	technology          = "logistics",
+	order               = "a",
+	loader_ingredients  = {
+		{"transport-belt", 1},
+		tiers["t1"]["loader"]["plates"],
+	},
+	beltbox_ingredients = {
+		{"transport-belt", 4},
+		tiers["t1"]["beltbox"]["plates"],
+		tiers["t1"]["beltbox"]["gears"],
+		{"electronic-circuit", 4},
+	},
+	beltbox_technology  = "deadlock-stacking-1",
+})
 
 deadlock.add_tier({
   transport_belt      = "fast-transport-belt",

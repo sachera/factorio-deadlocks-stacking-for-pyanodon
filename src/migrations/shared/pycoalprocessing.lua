@@ -34,8 +34,12 @@ return {
   { item = "kevlar", icon = nil, stage = 2 },
   { item = "nbfe-alloy", icon = nil, stage = 2 },
   { item = "nichrome", icon = nil, stage = 2 },
+	{ item = "niobium-concentrate", icon = nil, stage = 2 },
+	{ item = "niobium-dust", icon = nil, stage = 2 },
   { item = "niobium-ore", icon = nil, stage = 2 },
+  { item = "niobium-oxide", icon = nil, stage = 2 },
   { item = "niobium-plate", icon = nil, stage = 2 },
+	{ item = "niobium-powder", icon = nil, stage = 2 },
   { item = "optical-fiber", icon = nil, stage = 2 },
 
   { item = "fuelrod-mk01", icon = nil, stage = 3 }

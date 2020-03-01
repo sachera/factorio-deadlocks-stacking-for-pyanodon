@@ -98,7 +98,7 @@ return {
   { item = "reduced-chromium", icon = nil, stage = 3 },
   { item = "sintered-chromium", icon = nil, stage = 3 },
   { item = "concentrated-ti", icon = nil, stage = 3 },
-  { item = "low-grade-copper-rejects", icon = nil, stage = 3 },
+  { item = "low-grade-rejects", icon = nil, iconName = "low-grade-copper-rejects", stage = 3 },
   { item = "reduced-copper", icon = nil, stage = 3 },
   { item = "sintered-copper", icon = nil, stage = 3 },
   { item = "super-steel", icon = nil, stage = 3 },

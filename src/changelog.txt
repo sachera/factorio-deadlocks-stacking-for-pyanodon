@@ -1,18 +1,50 @@
-Version: 0.1.17
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
 Date: 2020-02-15
   Changes:
     - added stacked icons to optimize performance
     - adapted recieps for stacking beltboxes to pyanodons modpack (if pyrawores and/or pypetroleumhandling is installed)
+  Bugfixes:
+    - corrected spelling for the following items:
+      - from pyhightech:
+        - circuit-board-1 -> electronic-circuits
+        - circuit-board-2 -> advanced-circuits
+        - phenolic-board -> phenolicboard
+        - fertilizer -> py-fertilizer
+        - bone -> bones
+        - circuit-board-3 -> processor
+        - re-tin-alloy -> re-tin
+        - nano-chip -> nanochip
+      - from pyfusion:
+        - superconducting-wire -> sc-wire
+        - superconducting-coil -> sc-coil
+        - boron-trioxide-dust -> b2o3-dust
+        - deposited-vcore -> deposited-core
+        - rwall-shield -> reinforced-wall-shield
+        - magnetic-unit -> sc-unit
+      - from pyrawores:
+        - low-grade-copper-rejects -> low-grade-rejects
+    - removed duplicate stacking:
+      - from pyfusion: control-unit
 
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.18
+Date: 2020-03-1
+  Changes:
+    - updated to version 0.18.9
+  Added Stacking for:
+    - niobium oxide
+    - niobium concentrate
+    - niobium powder
+    - niobium dust
 
+---------------------------------------------------------------------------------------------------
 Version: 0.1.17
 Date: 2020-02-15
-  Additions:
+  Changes:
     - added a thumbnail
-  Migrations:
-    - added py petroleum handling
-  Added stacking for:
+    - added pypetroleumhandling
+  Added Stacking for:
     - small parts 1, 2 and 3, belts, bolts
     - raw coal (by request)
 
@@ -46,8 +78,8 @@ Date: 2019-06-23
     - moved electronic circuits from stage 2 to stage 1
 
   Added Stacking/Crating for:
-    -nic core,microchip,high flux core,heavy p doped silicon,graphene sheet,glass fibers
-    -fiberglass,epoxy,diode,bisphenol a,collagen,bones,blood meal,transistor,silicon,stone wool
+    - nic core,microchip,high flux core,heavy p doped silicon,graphene sheet,glass fibers
+    - fiberglass,epoxy,diode,bisphenol a,collagen,bones,blood meal,transistor,silicon,stone wool
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.12
@@ -60,13 +92,13 @@ Date: 2019-05-27
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.11
 Date: 2019-05-27
-  Features:
+  Changes:
     - made PyCoalProcessing a non optional dependency
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.10
 Date: 2019-05-13
-  Features:
+  Changes:
     - rebased the mod on Shane Madden's beltboxes mod
     - add support for Pyanadons Raw Ores
     - updated the mod for Factorio 0.17.x
@@ -102,29 +134,25 @@ Date: 2018-05-27
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.5
 Date: 2018-05-14
-  - Added Stacking/Crating for:
+  Added Stacking/Crating for:
     - Ceramic, Raw Fiber, Urea, Melamine and Melamine Resin
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 2018-05-11
-  Other changes:
+  Bugfixes:
     - Changed the stack icons for electronic circuits, advanced circuits and processing units if pY HighTech is installed
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 2018-05-07
   Bugfixes:
-      - Fix a crash on startup
-
----------------------------------------------------------------------------------------------------
-Version: 0.1.2
-Date: 2018-05-07
+    - Fix a crash on startup
   Added Stacking/Crating for:
-      - Iron Oxide, Fawogae, Ralesia and Clay
+    - Iron Oxide, Fawogae, Ralesia and Clay
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2018-05-07
   Added Stacking/Crating for:
-    - Stacking and Crating for Coke
+    - Coke
