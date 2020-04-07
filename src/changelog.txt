@@ -1,9 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2020-02-15
+  Changes:
+    - added crushed oil sand (by request) for testing new version off our mod
+---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 2020-02-15
   Changes:
     - added stacked icons to optimize performance
-    - adapted recieps for stacking beltboxes to pyanodons modpack (if pyrawores and/or pypetroleumhandling is installed)
+    - adapted recipes for stacking beltboxes to pyanodons modpack (if pyrawores and/or pypetroleumhandling is installed)
   Bugfixes:
     - corrected spelling for the following items:
       - from pyhightech:
