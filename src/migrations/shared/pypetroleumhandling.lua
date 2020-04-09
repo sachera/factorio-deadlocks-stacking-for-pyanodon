@@ -4,6 +4,5 @@ return {
   { item = "bolts", icon = nil, stage = 1 },
 
   { item = "small-parts-02", icon = nil, stage = 2 },
-  { item = "small-parts-03", icon = nil, stage = 2 },
-  { item = "crushed-oil-sand", icon = nil, stage = 2 }
+  { item = "small-parts-03", icon = nil, stage = 2 }
 }
