@@ -45,6 +45,7 @@ return {
   { item = "ore-chromium", icon = nil, stage = 1 },
   { item = "ore-tin", icon = nil, stage = 1 },
   { item = "raw-coal", icon = nil, stage = 1 },
+  { item = "crushed-coal", icon = nil, stage = 1 },
 
   { item = "grade-3-lead", icon = nil, stage = 2 },
   { item = "grade-4-lead", icon = nil, stage = 2 },
@@ -84,6 +85,7 @@ return {
   { item = "grade-4-tin", icon = nil, stage = 2 },
   { item = "tin-ore-rejects", icon = nil, stage = 2 },
   { item = "tin-dust", icon = nil, stage = 2 },
+  { item = "coarse-coal", icon = nil, stage = 2 },
 
   { item = "high-tin-mix", icon = nil, stage = 3 },
   { item = "high-tin-concentrate", icon = nil, stage = 3 },
