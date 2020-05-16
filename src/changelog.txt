@@ -1,8 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.1
-Date: 2020-04-9
+Date: 2020-05-10
   Changes:
-    - added coarse coal and crushed coal by request
+    - added coarse coal,crushed coal and titanium residue by request
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 2020-02-15
