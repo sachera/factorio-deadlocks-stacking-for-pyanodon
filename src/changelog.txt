@@ -1,13 +1,26 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.2
-Date: 2020-06-01
+Date: 2020-06-06
   Changes:
     - added for stacking:
-    - crushed oil sand by request
+    - biomass (by request)
+    - agar
+    - latex slab
+    - cellulose
+    - moss
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2020-06-06
+  Changes:
+    - added for stacking: (some by request)
+    - crushed oil sand
     - carbon black
-    - oil sand by request
+    - oil sand
+    - coarse coal
+    - crushed coal
+    - latex
   Bugfixes:
-    - added a new script (thanks to billbo99) for stacked icons
+    - added a new script for creating stacked icons (a very special thanks to billbo99)
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 2020-02-15
