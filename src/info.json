@@ -7,7 +7,7 @@
     "contact": "",
     "homepage": "",
     "dependencies": [
-        "base >= 0.18.17",
+        "base >= 0.18.30",
         "?deadlock-beltboxes-loaders >= 2.1.11",
         "pycoalprocessing >= 1.3.0",
         "?pyindustry >= 1.2.1",
